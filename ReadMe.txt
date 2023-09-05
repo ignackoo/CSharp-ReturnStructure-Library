@@ -19,3 +19,11 @@ ReturnStructure TestFunction2(Exception ex)
 {
     return (new ReturnStructure(0, "Status Code OK", ex);
 }
+
+ReturnStructure TestFunction3()
+{
+    Exception ex = new Exception();
+    return (new ReturnStructure(0, "Status Code OK", ex);
+}
+
+please give me some star if you will see that the library is useful, thank you
